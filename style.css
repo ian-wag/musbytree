@@ -12,12 +12,13 @@ body {
 }
 
 h1 {
-  padding-top: 1em;
+  padding-top: 0.5em;
+  font-size: 4em;
 }
 
 h2 {
   padding-top: 0.5em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   font-size: 1em;
 }
 
@@ -31,12 +32,16 @@ a {
 
 .internet {
   align-self: end;
+  font-size: 0;
+  border-top: 4px solid #e5e5ff;
+  padding-top: 10px;
 }
 
 .profile-pic {
   max-width: 150px;
   max-height: 150px;
   border-radius: 5%;
+  margin-bottom: 2em;
 }
 
 .flex {
@@ -54,6 +59,8 @@ a.button1 {
   color: #e5e5ff;
   font-size: 2em;
   transition: all 0.3s;
+  text-align: center;
+  width: 70%;
 }
 
 a.button1:hover {
@@ -64,6 +71,16 @@ a.button1:hover {
 .grid {
   display: grid;
   height: 100vh;
-  grid-template-rows: auto;
+  grid-template-rows: 80%;
   grid-template-columns: auto;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
