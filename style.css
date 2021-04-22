@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-image: url(assets/stars.gif);
   background-color: black;
@@ -12,6 +17,7 @@ body {
   max-height: 100vh;
   max-width: 100%;
   padding: 0.2em;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -99,7 +105,6 @@ a.button1:hover {
   max-height: 100vh;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: auto;
-  overflow-x: hidden;
 }
 
 .flex {
