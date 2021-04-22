@@ -99,6 +99,7 @@ a.button1:hover {
   max-height: 100vh;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: auto;
+  overflow-x: hidden;
 }
 
 .flex {
