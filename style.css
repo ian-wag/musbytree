@@ -5,10 +5,12 @@
 }
 
 body {
-  background-image: url(/assets/stars.gif);
+  background-image: url(assets/stars.gif);
+  background-color: black;
   color: aliceblue;
   font-family: "Comic Neue", cursive;
   max-height: 100vh;
+  padding: 0.2em;
 }
 
 h1 {
@@ -84,6 +86,10 @@ a.button1:hover {
   border-top: 4px solid #e5e5ff;
   padding-top: 10px;
   font-size: 0;
+}
+
+.madeby {
+  padding-bottom: 0.2em;
 }
 
 .grid {
