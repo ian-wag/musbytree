@@ -10,6 +10,7 @@ body {
   color: aliceblue;
   font-family: "Comic Neue", cursive;
   max-height: 100vh;
+  max-width: 100%;
   padding: 0.2em;
 }
 
@@ -95,6 +96,7 @@ a.button1:hover {
 .grid {
   display: grid;
   height: 100vh;
+  max-height: 100vh;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: auto;
 }
