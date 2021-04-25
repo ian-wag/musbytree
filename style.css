@@ -6,8 +6,9 @@
 
 body {
   background-image: url(assets/stars.gif);
+  background-attachment: fixed;
   background-color: black;
-  color: aliceblue;
+  color: #e5e5ff;
   font-family: "Comic Neue", cursive;
   max-height: 100vh;
   max-width: 100%;
@@ -91,6 +92,7 @@ a.button1:hover {
 
 .madeby {
   padding-bottom: 0.2em;
+  color: #e5e5ff;
 }
 
 .grid {
