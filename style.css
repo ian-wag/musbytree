@@ -50,6 +50,9 @@ button {
   margin-bottom: 2em;
 }
 
+.bio {
+  font-style: italic;
+}
 .main-img {
   display: flex;
   align-items: center;
@@ -81,6 +84,14 @@ a.button1 {
 a.button1:hover {
   color: #000000;
   background-color: #e5e5ff;
+}
+
+.git-icon {
+  color: #e5e5ff;
+}
+
+.git-icon:focus {
+  color: #e5e5ff;
 }
 
 .internet {
