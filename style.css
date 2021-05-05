@@ -13,7 +13,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   max-height: 100vh;
   max-width: 100%;
-  padding: 0.2em;
+  margin: 0.2em;
 }
 
 h1 {
@@ -118,7 +118,7 @@ a.button1:hover {
 
 .grid {
   display: grid;
-  height: 100vh;
+  height: 90vh;
   max-height: 100vh;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: auto;
