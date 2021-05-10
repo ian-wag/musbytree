@@ -45,6 +45,10 @@ iframe {
   padding-top: 1em;
 }
 
+p {
+  font-size: small;
+}
+
 .main {
   padding-top: 2em;
 }
@@ -114,6 +118,14 @@ a.button1:hover {
 .madeby {
   padding-bottom: 0.2em;
   color: #e5e5ff;
+}
+
+#musby,
+#musby:visited,
+#musby:active,
+#musby:focus {
+  color: #e5e5ff;
+  text-decoration: none;
 }
 
 .grid {
