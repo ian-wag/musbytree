@@ -148,3 +148,32 @@ a.button1:hover {
 .rotateimg180 {
   transform: rotateY(180deg);
 }
+
+/* error page style */
+
+.error-page {
+  height: 85vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  max-width: 70%;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.err-txt {
+  font-size: 1.5em;
+  padding: 2em;
+}
+
+.p2 {
+  padding-top: 2em;
+}
+
+/* video player on the 404 page */
+.err-stream {
+  margin-top: 2em;
+}
