@@ -120,8 +120,15 @@ a.button1:hover {
 #musby:visited,
 #musby:active,
 #musby:focus {
+  padding: 0;
+  margin: 0;
   color: #e5e5ff;
   text-decoration: none;
+  transition: ease-out 150ms;
+}
+
+#musby:hover {
+  color: #007fee;
 }
 
 .grid {
