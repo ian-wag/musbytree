@@ -28,22 +28,33 @@ body {
 
 h1 {
   padding-top: 0.5em;
-  font-size: 4em;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Bungee Hairline", cursive;
 }
 
 h2 {
   padding-top: 0.5em;
   padding-bottom: 2em;
   font-size: 1em;
+  text-align: center;
 }
 
 footer {
   position: sticky;
+  text-align: center;
 }
 
 .main-content {
-  display: block;
+  display: relative;
+  height: calc(100vh - 20px);
   overflow-x: hidden;
+}
+
+.main-content a {
+  display: block;
+  text-align: center;
+  padding-bottom: 1em;
 }
 
 .video-container {
@@ -66,8 +77,11 @@ footer {
 }
 
 .profile-pic {
-  height: 200px;
-  width: auto;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 }
 
 .internet {
