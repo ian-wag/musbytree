@@ -11,6 +11,7 @@ body {
   color: #e5e5ff;
   /* font-family: "Comic Neue", cursive; */
   font-family: "Courier New", Courier, monospace;
+  max-height: 100vh;
   max-width: 100%;
   margin: 0.2em;
 }
@@ -46,7 +47,6 @@ iframe {
 
 .main {
   padding-top: 2em;
-  max-height: calc(100vh - 67.19px);
 }
 
 .profile-pic {
