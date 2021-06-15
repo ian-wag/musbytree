@@ -20,7 +20,6 @@ body {
     #00f2cc,
     #5ffba3
   );
-  /* background-image: url(/bg/bg3.svg); */
   background-attachment: fixed;
   background-size: cover;
 }
@@ -34,7 +33,6 @@ h1 {
   padding-top: 0.5em;
   font-size: 3em;
   text-align: center;
-  font-family: "Bungee Hairline", cursive;
 }
 
 h2 {
@@ -42,15 +40,12 @@ h2 {
   padding-bottom: 2em;
   font-size: 1em;
   text-align: center;
-  font-family: "Bungee Hairline", cursive;
-}
-
-a {
-  font-family: "Bungee Hairline", cursive;
+  font-style: italic;
 }
 
 footer {
   margin-top: auto;
+  margin-bottom: 0.5em;
 }
 
 .main {
@@ -59,6 +54,7 @@ footer {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  font-family: "Bungee Hairline", cursive;
 }
 .main-content {
   overflow-x: hidden;
@@ -82,9 +78,9 @@ footer {
 }
 
 .glass-card {
-  margin: 2em 1em;
-  background: rgba(92, 92, 92, 0.568);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  margin: 2em 1em 3em 1em;
+  background: rgba(210, 211, 255, 0.527);
+  box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
   border-radius: 10px;
@@ -118,9 +114,16 @@ footer {
   display: none;
 }
 
+.madeby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.madeby,
 #musby {
   font-family: "IBM Plex Sans", sans-serif;
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.85em;
 }
