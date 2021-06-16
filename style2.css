@@ -5,21 +5,9 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to left top,
-    #6b8ad1,
-    #708fd5,
-    #7595da,
-    #7a9ade,
-    #7fa0e2,
-    #6cabee,
-    #53b7f7,
-    #2ec2fd,
-    #00d4fc,
-    #00e5eb,
-    #00f2cc,
-    #5ffba3
-  );
+  background-color: #006eae;
+  background-image: linear-gradient(160deg, #006eae 39%, #00bda6 100%);
+
   background-attachment: fixed;
   background-size: cover;
 }
@@ -79,7 +67,7 @@ footer {
 
 .glass-card {
   margin: 2em 1em 3em 1em;
-  background: rgba(210, 211, 255, 0.527);
+  background: rgba(210, 211, 255, 0.3);
   box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
@@ -129,7 +117,7 @@ footer {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media only screen and (min-device-width: 576px) and (max-device-width: 1399px) {
   .glass-card {
     padding-right: 3em;
     padding-left: 3em;
@@ -138,7 +126,39 @@ footer {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
+  h1 {
+    flex: 1;
+  }
+  h2 {
+    flex: 1;
+    padding-bottom: 0;
+  }
+  .main {
+    margin: 1em 4em 4em 2em;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Bungee Hairline", cursive;
+  }
+
   .glass-card {
-    padding: 5em 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0em 10em;
+  }
+
+  .button-main {
+    padding: 0;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 0.6em;
+    color: #ffffff;
+    flex: 1;
   }
 }
