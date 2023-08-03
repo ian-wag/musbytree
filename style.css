@@ -175,6 +175,7 @@ a.button1:hover {
 
 .err-txt {
   font-size: 32px;
+  font-family: 'TimesPixel32', serif;
   padding: 2em;
 }
 
