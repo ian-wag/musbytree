@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "TimesPixel16";
+  src: url("/assets/Times\ Pixel.woff") format('woff');
+}
+
+@font-face {
+  font-family: "TimesPixel32";
+  src: url("/assets/TimesPixel32.woff") format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +20,7 @@ body {
   background-color: black;
   color: #e5e5ff;
   /* font-family: "Comic Neue", cursive; */
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'TimesPixel16', serif;
   max-height: 100vh;
   max-width: 100%;
   margin: 0.2em;
@@ -18,13 +28,14 @@ body {
 
 h1 {
   padding-top: 0.5em;
-  font-size: 4em;
+  font-size: 32px;
+  font-family: 'TimesPixel32', serif;
 }
 
 h2 {
   padding-top: 0.5em;
   padding-bottom: 2em;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 a {
@@ -59,14 +70,11 @@ iframe {
 .bio {
   font-style: italic;
 }
+
 .main-img {
   display: flex;
   align-items: center;
   margin-top: 2em;
-}
-
-.profile-name {
-  font-weight: 300;
 }
 
 .main-gifs {
@@ -85,10 +93,11 @@ a.button1 {
   border-radius: 0.3em;
   text-decoration: none;
   color: #e5e5ff;
-  font-size: 2em;
+  font-size: 32px;
   transition: all 0.2s;
   text-align: center;
   width: 70%;
+  font-family: 'TimesPixel32', serif;
 }
 
 a.button1:hover {
@@ -165,7 +174,7 @@ a.button1:hover {
 }
 
 .err-txt {
-  font-size: 1.5em;
+  font-size: 32px;
   padding: 2em;
 }
 
